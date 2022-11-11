@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: antiquewhite;
+  background-color: rgb(29, 30, 30);
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(29, 30, 30);
+  font-size: 25px;
+  border: 2px solid #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table td:nth-of-type(1) {
+  text-align: left;
+  padding-left: 30px;
+}
+
+/* Article 1 */
+
+section > article:nth-of-type(1) {
+  width: 300px;
+  height: 200px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20%;
+  font-size: 55px;
+  color: rgb(254, 254, 254);
+  border: 2px solid #fff;
+  display: none;
+}
+
+/* Article 2  */
+section > article:nth-of-type(2) {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-top: 13px;
+  width: 300px;
+  height: 70px;
+
+  color: #fff;
+  font-size: 40px;
+  position: relative;
+  border: 2px solid #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section > article:nth-of-type(2) p:nth-of-type(1) {
+  font-size: 20px;
+  position: absolute;
+  top: 18px;
+  left: -38px;
+  background-color: rgb(234, 28, 28);
+  padding: 5px 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+section > article:nth-of-type(2) p:nth-of-type(2) {
+  font-size: 20px;
+  position: absolute;
+  right: -39px;
+  top: 18px;
+  background-color: rgb(234, 28, 28);
+  padding: 5px 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Article 3  */
+section > article:nth-of-type(3) {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  width: 400px;
+  height: 200px;
+  background-color: rgb(29, 30, 30);
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+  display: block;
+}
+
+section h2 {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+section > a {
+  color: red;
+  font-size: 25px;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* roks,papers,scissors div */
+div {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  padding-top: 15px;
+  background-color: rgb(244, 218, 218);
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* for result Win or Los or Draw */
+section > article:nth-of-type(4) {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-top: 22%;
+  width: 300px;
+  height: 200px;
+  border: 2px solid #fff;
+  display: none;
+  color: #fff;
+  font-size: 40px;
+}
+
+img {
+  width: 22%;
+  height: 12.5vh;
+  padding: 15px;
+  border-radius: 30%;
+  background: rgb(244, 218, 218);
+  margin: 10px;
+}
+
+/* For JS  */
+
+.green-layer {
+  border: 3px solid rgb(2, 208, 2);
+  box-shadow: 0 0 30px rgb(1, 158, 1);
+}
+
+.red-layer {
+  border: 3px solid rgb(255, 0, 0);
+  box-shadow: 0 0 30px rgb(184, 1, 1);
+}
+
+.grey-layer {
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 0 30px rgb(160, 159, 159);
+}

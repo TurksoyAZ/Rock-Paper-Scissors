@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <table id="tableId">
+          <tr>
+            <th colspan="2">how many rounds?</th>
+          </tr>
+
+          <tr>
+            <td>
+              <input
+                type="radio"
+                name="alfa"
+                value="5"
+                checked
+                id="radioTour5"
+              />
+              5
+            </td>
+            <td>
+              <input type="radio" name="alfa" value="10" id="radioTour10" /> 10
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" name="alfa" value="15" id="radioTour15" /> 15
+            </td>
+            <td>
+              <input type="radio" name="alfa" value="20" id="radioTour20" /> 20
+            </td>
+          </tr>
+        </table>
+        <!-- article 1 -->
+        <article id="roundId" class="roundClass">
+          <span id="roundScore">0</span> / <span id="roundTotalScore">0</span>
+        </article>
+        <!-- article 2 -->
+        <article>
+          <p>USER</p>
+          <p>COMP</p>
+          <span id="userScor">0</span> <span>:</span>
+          <span id="compScor">0</span>
+        </article>
+        <!-- article 3 -->
+
+        <article id="resultDisplayNone">
+          <h2 id="textForPlayer">Let's play</h2>
+
+          <img id="rock" class="btn" src="./assets/img/protest.png" alt="" />
+
+          <img id="paper" class="btn" src="./assets/img/hand.png" alt="" />
+
+          <img
+            id="scissors"
+            class="btn"
+            src="./assets/img/scissors.png"
+            alt=""
+          />
+
+          <br />
+          MAKE YOUR MOVE
+        </article>
+        <!-- article 4 -->
+
+        <article id="resultDisplayBlock"></article>
+
+        <a href="">Restart</a>
+      </section>
+    </main>
+
+    <!-- External script -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
