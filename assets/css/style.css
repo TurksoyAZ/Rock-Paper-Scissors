@@ -92,7 +92,7 @@ section > article:nth-of-type(3) {
   margin-right: auto;
   margin-bottom: 50px;
   padding-top: 10px;
-  width: 400px;
+  width: 500px;
   height: 200px;
   background-color: rgb(29, 30, 30);
   color: rgb(255, 255, 255);
@@ -147,8 +147,8 @@ section > article:nth-of-type(4) {
 }
 
 img {
-  width: 22%;
-  height: 12.5vh;
+  width: 6vw;
+  height: 12vh;
   padding: 15px;
   border-radius: 30%;
   background: rgb(244, 218, 218);
